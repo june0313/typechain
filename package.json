@@ -3,5 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "Park Young Jun <june0313@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "prestart": "tsc",
+    "start": "node index.js"
+  }
 }
